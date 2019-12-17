@@ -59,6 +59,26 @@ p {
     color: #333;
 }
 
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+
 /* Navbar */
 #navbar {
     background:#333;
@@ -99,7 +119,7 @@ p {
 /* Showcase */
 
 #showcase {
-    background: url('../img/photo\ 3.jpeg') no-repeat center center/cover;
+    background: url('../img/photo\ 4.jpeg') no-repeat center center/cover;
     height: 350px;
 }
 
@@ -109,17 +129,61 @@ p {
     padding-top: 90px;
 }
 
+
 #showcase .showcase-content h1 {
-    font-size: 40px;
-    line-height: 1.0em;
+    font-size: 60px;
+    line-height: 1.2em;
 }
 
 #showcase .showcase-content p {
-    padding-bottom: 10px;
-    line-height: 1.3em;
+    padding-bottom: 20px;
+    line-height: 1.7em;
 }
 
 /* Home Info */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/photo\ 1.jpeg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;  
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
 
 
 
